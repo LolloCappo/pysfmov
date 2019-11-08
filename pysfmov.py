@@ -3,7 +3,7 @@ import numpy as np
 
 def get_meta_data(filename):
     """
-    function to open sfmov (exported from ResearchIR) and obtain data and metadata
+    Function to open sfmov image sequences (exported from FLIR ResearchIR) and obtain metadata
     
     Arguments:
         filename {str} -- path to the file
@@ -28,13 +28,14 @@ def get_meta_data(filename):
 
     
 def get_data(filename):
-    """[summary]
+    """
+    Function to open sfmov image sequences (exported from FLIR ResearchIR) and obtain raw data
     
     Arguments:
-        filename {[type]} -- [description]
+        filename {str} -- path to the file
     
     Returns:
-        [type] -- [description]
+        data -- raw data
     """
     meta = get_meta_data(filename=filename)
     f = open(filename,'rb') 
