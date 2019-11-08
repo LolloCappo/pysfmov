@@ -18,12 +18,11 @@ from setuptools import setup, Extension
 from pysfmov import __version__
 setup(name='pysfmov',
       version=__version__,
-      author='Lorenzo',
-      author_email='',
-      description='',
+      author='Lorenzo Capponi, Janko Slavič, Domen Gorjup',
+      author_email='lorenzocapponi@outlook.it, janko.slavic@fs.uni-lj.si, domen.gorjup@fs.uni-lj.si',
+      description='Module for reading ResearchIR SFMOV image sequences',
       url='https://github.com/LolloCappo/pysfmov',
       py_modules=['pysfmov'],
-      #ext_modules=[Extension('lvm_read', ['data/short.lvm'])],
       long_description=readme,
       install_requires=requirements
       )
