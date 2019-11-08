@@ -18,7 +18,7 @@ from setuptools import setup, Extension
 from pysfmov import __version__
 setup(name='pysfmov',
       version=__version__,
-      author='',
+      author='Lorenzo',
       author_email='',
       description='',
       url='https://github.com/LolloCappo/pysfmov',
