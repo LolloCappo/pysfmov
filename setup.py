@@ -18,8 +18,8 @@ from setuptools import setup, Extension
 from pysfmov import __version__
 setup(name='pysfmov',
       version=__version__,
-      author='Lorenzo Capponi, Janko Slavič, Domen Gorjup',
-      author_email='lorenzocapponi@outlook.it, janko.slavic@fs.uni-lj.si, domen.gorjup@fs.uni-lj.si',
+      author='Lorenzo Capponi, Domen Gorjup, Janko Slavič',
+      author_email='lorenzocapponi@outlook.it, domen.gorjup@fs.uni-lj.si, janko.slavic@fs.uni-lj.si',
       description='Module for reading ResearchIR SFMOV image sequences',
       url='https://github.com/LolloCappo/pysfmov',
       py_modules=['pysfmov'],
