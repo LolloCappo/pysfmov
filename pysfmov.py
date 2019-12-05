@@ -40,7 +40,7 @@ def get_data(filename):
     meta = get_meta_data(filename=filename)
     f = open(filename,'rb') 
     f.seek(f.read().find(b'DATA')+6)
-        if meta['DaType'] == 'Flt32':
+    if meta['DaType'] == 'Flt32':
         ty = np.float32
     else:
         ty = np.uint16
