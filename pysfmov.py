@@ -1,4 +1,4 @@
-__version__ = '0.1'
+__version__ = '0.2'
 import numpy as np
 
 def get_meta_data(filename):
