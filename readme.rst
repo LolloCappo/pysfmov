@@ -10,7 +10,8 @@ Installing this package
 -----------------------
 
 .. code-block:: console
-    $ pip install pyNNST
+
+    $ pip install pysfmov
 
 
 Simple examples
