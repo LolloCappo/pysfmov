@@ -24,3 +24,8 @@ Simple examples
 
       data = pysfmov.get_data(filename) # get data from sfmov file
       meta_data = pysfmov.get_meta_data(filename) # get meta data from sfmov file
+
+
+
+Reference:
+<https://www.sciencedirect.com/science/article/pii/S0142112320301924>
