@@ -1,6 +1,9 @@
 pysfmov
 =======
 
+.. image:: https://zenodo.org/badge/220489040.svg
+   :target: https://zenodo.org/badge/latestdoi/220489040
+
 SFMOV File Reader
 -----------------
 This module allows to get raw data and meta data from .sfmov image sequences.
